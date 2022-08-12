@@ -1652,6 +1652,11 @@ figcaption {
   max-width: 32rem;
 }
 
+.btn-dark {
+  background: #000;
+  color: #fff;
+}
+
 .sticky-top {
   display: -webkit-box;
   display: -webkit-flex;
