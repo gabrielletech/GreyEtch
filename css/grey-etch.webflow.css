@@ -607,6 +607,10 @@ figcaption {
 }
 
 .container-large {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   max-width: 96rem;
   margin-right: auto;
@@ -3086,11 +3090,15 @@ figcaption {
 }
 
 .section-days-agenda {
+  height: 40vh;
   position: relative;
   z-index: 25;
   border-top-left-radius: 5vw;
   border-top-right-radius: 5vw;
   background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .specker-list-item {
@@ -3671,6 +3679,10 @@ figcaption {
   max-width: 31rem;
 }
 
+.shop-text {
+  padding: 40px;
+}
+
 .hero-home-info {
   position: static;
   z-index: 25;
@@ -3956,6 +3968,7 @@ figcaption {
 
   .heading-large {
     font-size: 3.5rem;
+    margin-bottom: 20px;
   }
 
   .fs-styleguide_section {
