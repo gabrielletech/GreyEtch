@@ -3680,7 +3680,32 @@ figcaption {
 }
 
 .shop-text {
-  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
+}
+
+.shop-text h2 {
+  margin-bottom: 20px;
+}
+
+.shop-btn {
+  padding: 15px 20px;
+  margin-top: 20px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 8px
+}
+
+.shop-btn:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1.5px solid #000;
+}
+
+.fa-brands {
+  margin-right: 8px;
 }
 
 .hero-home-info {
